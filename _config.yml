@@ -1,0 +1,28 @@
+# Dependencies
+markdown:         kramdown
+highlighter:      rouge
+
+# Permalinks
+permalink:        pretty
+
+# Plugins
+plugins: [jekyll-paginate]
+
+# Setup
+title:            'STAT 215A'
+tagline:          ''
+description:      '[Fall 2022] <br /> Bin Yu <br />'
+url:              "https://yu-group.github.io/stat-215a-fall-2022/"
+baseurl:          "/stat-215a-fall-2022"
+
+author:
+  name:           'Bin Yu, Theo Saarinen'
+  url:            "https://yu-group.github.io/stat-215a-fall-2022/"
+
+paginate:         5
+
+repository: Yu-Group/stat-215a-fall-2022
+
+gems: ["jekyll-github-metadata"]
+
+encoding: utf-8

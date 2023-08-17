@@ -1,0 +1,51 @@
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <meta name="description" content="Probability of Data Science (listed as Stat 140 and commonly called “Prob140”) is an introductory course on probability, emphasizing the combined use of mathematics and programming to solve problems" />
+  <title>
+    {% if page.title == "Home" %}
+      {{ site.title }} &middot; {{ site.tagline }}
+    {% else %}
+      {{ page.title }} &middot; {{ site.title }}
+    {% endif %}
+  </title>
+
+  <script type="text/x-mathjax-config">
+   MathJax.Hub.Config({
+       tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+   });
+  </script>
+
+  <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+  <!-- CSS -->
+  <link rel="stylesheet" href={{ "/assets/css/poole.css" | relative_url }}>
+  <link rel="stylesheet" href={{ "/assets/css/syntax.css" | relative_url }}>
+  <link rel="stylesheet" href={{ "/assets/css/hyde.css" | relative_url }}>
+  <link rel="stylesheet" href={{ "/assets/css/fonts.css" | relative_url }}>
+  <link rel="stylesheet" href={{ "/assets/css/basicModal.css" | relative_url }}>
+  <link rel="stylesheet" href={{ "/assets/css/custom-215a.css" | relative_url }}>
+
+  <!-- Icons -->
+  <link rel="icon" type="image/png" href={{ "/assets/favicon/favicon-32x32.png" | relative_url }} sizes="32x32" />
+  <link rel="icon" type="image/png" href={{ "/assets/favicon/favicon-16x16.png" | relative_url }} sizes="16x16" />
+  <link rel="apple-touch-icon" sizes="180x180" href={{ "/assets/favicon/apple-touch-icon.png" | relative_url }}>
+  <link rel="manifest" href={{ "/assets/favicon/site.webmanifest" | relative_url }}>
+  <link rel="mask-icon" href={{ "/assets/favicon/safari-pinned-tab.svg" | relative_url }} color="#5bbad5">
+  <link rel="shortcut icon" href={{ "/assets/favicon/favicon.ico" | relative_url }}>
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-config" content={{ "/assets/favicon/browserconfig.xml" | relative_url }}>
+  <meta name="theme-color" content="#ffffff">
+  <script src={{ "/assets/js/jquery.min.js" | relative_url }}></script>
+  <link rel="stylesheet" href={{ "/assets/css/swiper.min.css" | relative_url }}>
+  <script src={{ "/assets/js/swiper.jquery.min.js" | relative_url }}></script>
+  <script src={{ "/assets/js/basicModal.min.js" | relative_url }}></script>
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href={{ "/atom.xml" | relative_url }}>
+  <script>
+  </script>
+</head>

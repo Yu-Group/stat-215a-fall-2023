@@ -1,0 +1,46 @@
+This calendar will be updated as the semester progresses.
+<table id="calendar">
+<tbody>
+    <tr><th>Week</th><th>Date</th><th>Content</th><th>Assignments</th><th>Readings Due (before lecture)</th></tr>
+{% for org_hash in site.data.syllabus2.weeks %}
+  {% capture row_index %}{% cycle 'odd', 'even' %}{% endcapture %}
+  <tr class="{{row_index}}"> <td class="weeknum" rowspan="{{org_hash.basic.size}}">{{org_hash.weekNum}}</td>
+	{% for day in org_hash.basic %}
+	<td> {{day.date}}</td>
+	<td> {% if day.contentURL %} <a href="{{day.contentURL | relative_url}}"> {{day.content}}</a>
+		 {% else %} {{day.content}} {% endif %} </td>
+	<td>
+      <ul>
+	        {% for assignment in day.assignments %}
+          <li>
+              {% if assignment.url %}
+	            <a href="{{assignment.url | relative_url}}">{{assignment.name}} </a>
+              {% else %}
+              {{assignment.name}}
+              {% endif %}
+              {% if assignment.due %}
+	            <p>Due: {{assignment.due}}</p>
+              {% endif %}
+          </li>
+        	{% endfor %}
+      </ul>
+	</td>
+  <td>
+      <ul>
+          {% for reading in day.readings %}
+          <li>
+              {% if reading.url %}
+    	        <a href="{{ reading.url | relative_url}}">{{reading.name}} </a>
+              {% else %}
+              {{reading.name}}
+              {% endif %}
+          </li>
+          {% endfor %}
+      </ul>
+  </td>
+	<tr class="{{row_index}}">
+  {% endfor %}
+  </tr>
+{% endfor %}
+</tbody>
+</table>
