@@ -1,6 +1,6 @@
 ---
 layout: page
-title: STAT 215A Course Information, Fall 2021
+title: STAT 215A Course Information, Fall 2023
 ---
 #### Bin Yu ####
 
@@ -13,7 +13,7 @@ TU, TH 11:00 am - 12:29 pm
 ### The Required Components of Your Work ###
 - **Labs**
 - **Final Projects**.
-- **Midterm during class time on Thursday October 29** No substitutes except as required by university rules. More info to come.
+- **Midterm during class time on Thursday October 26** No substitutes except as required by university rules. More info to come.
 
 ### Grading ###
 
