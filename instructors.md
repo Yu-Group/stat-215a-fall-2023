@@ -15,8 +15,8 @@ Email: binyu
 
 ## GSI
 
-![Theo Saarinen]({{ "/assets/images/theo.png" | relative_url }}#staff-image)
+![Chengzhong Ye]({{ "/assets/images/" | relative_url }}#staff-image)
 
-Theo Saarinen
+Chengzhong Ye
 
-Email: theo_s
+Email: czye
