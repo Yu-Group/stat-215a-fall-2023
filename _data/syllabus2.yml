@@ -215,7 +215,7 @@ weeks:
       content: "Section 9: Introduce Lab 4"
       assignments:
         - name: "Lab 4 group project assigned"
-          due: 11/10 at 11:59pm
+          due: 11/09 at 11:59pm
         - name: "Lab 3 peer review due at 11:59pm"
   
   - weekNum: 11
@@ -248,15 +248,17 @@ weeks:
           url: "https://www.jstor.org/stable/1391660"
         - name: "D. F. Freedman (1995) Some issues in the foundation of statistics"
           url: "https://link.springer.com/article/10.1007/BF00208723"
+      assignments:
+        - name: "Lab 4 due at 11:59pm" 
+        - name: Final Project assigned
+          due: "12/10 at 11:59pm"
     - date: Fri 11/10
       content: "Academic holiday"
     - date: Sat 11/11
       assignments:
-        - name: "Lab 4 due at 11:59pm" 
         - name: Lab 4 peer review assigned
           due: 11/17 at 11:59pm
-        - name: Final Project assigned
-          due: "12/10 at 11:59pm"
+
 
   - weekNum: 13
     weekName: Week 13
