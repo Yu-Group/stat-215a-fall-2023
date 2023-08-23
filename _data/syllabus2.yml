@@ -15,9 +15,9 @@ weeks:
     weekName: Week 2
     basic:
     - date: Tue 08/29
-      content: "Guest Lecture on data collection case study 1 (pediatric ER)" 
+      content: "Lecture 2: Domain question to answer (often about the future), Relevant data collection and cleaning" 
     - date: Thu 08/31
-      content: "Lecture 2: Problem Formulation + Exploratory Data Analysis (EDA)"
+      content: "Lecture 3: Exploratory Data Analysis (EDA)"
       readings:
         - name: "\"The Future of Data Analysis\" (Tukey, 1962) [please skim]"
           url: https://www.jstor.org/stable/2237638
@@ -39,9 +39,9 @@ weeks:
     weekName: Week 3
     basic:
     - date: Tue 09/05
-      content: "Lecture 3: EDA (part 2)"
-    - date: Thu 09/07
       content: "Lecture 4: PCA: reality check and stability through appropriate data and algorithm perturbations"
+    - date: Thu 09/07
+      content: "Guest Lecture by Aaron Kornblith (UCSF) on data collection case study 1 (pediatric ER)"
     - date: Fri 09/08
       content: "Section 2: Advanced visualization techniques"
       
@@ -164,7 +164,7 @@ weeks:
     weekName: Week 8
     basic:
     - date: Tue 10/10
-      content: "Lecture 12: Sources of randomness. Simple random sampling. Density estimation (recorded)"
+      content: "Lecture 12: Sources of randomness. Simple random sampling. Density estimation"
       readings:
         - name: "Neyman (1923)"
           url: "https://www.jstor.org/stable/2245382"
