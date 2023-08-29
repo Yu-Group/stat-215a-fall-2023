@@ -7,7 +7,7 @@ title: STAT 215A Course Information, Fall 2023
 [Academic Guide Link](https://classes.berkeley.edu/content/2021-fall-stat-215a-001-lec-001).
 
 ### Lecture Time ###
-TU, TH 11:00 am - 12:29 pm
+TU, TH 12:30 am - 2:00 pm
 
 
 ### The Required Components of Your Work ###
