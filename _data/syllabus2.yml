@@ -183,32 +183,28 @@ weeks:
           url: "https://arxiv.org/abs/1904.02095"
     - date: Fri 10/13
       content: "Section 7: TBA"
-      assignments:
-        - name: Lab 2 Peer Review due at 11:59pm
   
   - weekNum: 9
     weekName: Week 9
     basic:
+    - data: Mon 10/16
+      assignments:
+        - name: Lab 2 Peer Review due at 11:59pm
     - date: Tue 10/17
       content: "Lecture 14: Neyman-Rubin model for A/B testing"
     - date: Thu 10/19
       content: "Lecture 15: Linear regression, Logistic Regression."
     - date: Fri 10/20
       content: "Section 8: TBA"
-      assignments:
-        - name: Lab 3 due at 11:59pm
-    - date: Sat 10/21
-      assigments:
-        - name: Lab 3 peer review assigned
-          due: 10/27
 
   - weekNum: 10
     weekName: Week 10
     basic:
-    - date: Tue 10/24
-      content: "Mid-term review"
+    - date: Mon 10/23
       assignments:
         - name: Lab 3 due at 11:59pm
+    - date: Tue 10/24
+      content: "Mid-term review"
     - date: Thu 10/26
       content: "Mid-term in class"
     - date: Fri 10/27
@@ -216,7 +212,6 @@ weeks:
       assignments:
         - name: "Lab 4 group project assigned"
           due: 11/09 at 11:59pm
-        - name: "Lab 3 peer review due at 11:59pm"
   
   - weekNum: 11
     weekName: Week 11
