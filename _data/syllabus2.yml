@@ -154,15 +154,14 @@ weeks:
         - name: Lab 2 due at 11:59pm
         - name: "Lab 3: computing and evaluating the stability of k-means assigned"
           due: 10/20 at 11:59pm
-    - date: Sat 10/07
-      assignments:
-        - name: Lab 2 Peer Review assigned
-          due: 10/13 at 11:59pm
-
   
   - weekNum: 8
     weekName: Week 8
     basic:
+    - date: Mon 10/9
+      assignments:
+        - name: Lab 2 Peer Review assigned
+          due: 10/16 at 11:59pm
     - date: Tue 10/10
       content: "Lecture 12: Sources of randomness. Simple random sampling. Density estimation"
       readings:
